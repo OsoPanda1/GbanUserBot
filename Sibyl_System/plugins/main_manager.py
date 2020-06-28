@@ -142,8 +142,8 @@ async def reject(event):
 help_plus = """
 Here is the help for **Main**:
 
-`scan` - Reply to a message WITH reason to send a request to Sibyl for judgement
-`approve` - Approve a scan request (Only works in Public Safety Bureau)
+`scan` - Reply to a message WITH reason to send a request to Eagle Base for judgement
+`approve` - Approve a scan request (Only works in Eagle Base Chat)
 `revert or revive or restore` - Ungban ID
 `qproof` - Get quick proof from database for given user id
 `proof` - Get message from proof id which is at the end of gban msg
