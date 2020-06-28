@@ -56,7 +56,7 @@ async def scan(event):
             reason = event.text.split(" ", trim)[trim]
         executor = f'[{executer.first_name}](tg://user?id={executer.id})'
         chat = f"t.me/{event.chat.username}/{event.message.id}" if event.chat.username else f"Occurred in Private Chat - {event.chat.title}"
-        await event.reply("Connecting to Sibyl for a cymatic scan.")
+        await event.reply("Connecting to Eagle Base for a message scan.")
         if req_proof and req_user:
           await replied.forward_to(Sibyl_logs)
           await System.gban(executer.id, req_user, reason, msg.id, executer)
@@ -73,7 +73,7 @@ async def revive(event):
    except IndexError: return
    a = await event.reply("Reverting bans..")
    await System.ungban(user_id, f" By //{(await event.get_sender()).id}")
-   await a.edit("Revert request sent to sibyl. This might take 10minutes or so.")
+   await a.edit("Revert request sent to eagle. This might take 10minutes or so.")
 
 
 @System.on(system_cmd(pattern=r'approve', allow_inspectors=True, force_reply = True))

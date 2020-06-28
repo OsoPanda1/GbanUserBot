@@ -1,15 +1,15 @@
 on_string = """
 **Portable Psychological Diagnosis and Supression System**
 Connection successful.
-`Dominator` is now active. 
-Cymatic scans are now possible!
+`Probe` is now active. 
+Message scans are now possible!
 """
 
 # Make sure not to change these too much
 # If you still wanna change it change the regex too
 scan_request_string = """
 $SCAN
-Cymatic Scan request
+Message Scan request
 **Enforcer:** {enforcer} 
 **User scanned:** {spammer}
 **Scan Reason:** `{reason}`
