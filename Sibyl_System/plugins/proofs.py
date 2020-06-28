@@ -34,7 +34,7 @@ async def make_proof(event, proof_id):
              url = f"https://del.dog/{r['key']}"
         return proof_string.format(proof_id = proof_id, reason=reason, paste=paste, url=url)
 
-@System.on(events.InlineQuery)  # pylint:disable=E0602
+@System.bot.on(events.InlineQuery)  # pylint:disable=E0602
 async def inline_handler(event):
   builder = event.builder
   query = event.text
