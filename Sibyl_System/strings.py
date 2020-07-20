@@ -30,7 +30,6 @@ $REJECTED
 **Crime Coefficient:** `Under 100`
 
 Not a target for enforcement action. 
-The trigger will be locked.
 """
 
 proof_string = """
@@ -41,9 +40,8 @@ proof_string = """
          ┗━[DelDog]({url})"""
 
 scan_approved_string = """
-#LethalEliminator
+#BANNED
 **Target User:** {scam}
-**Crime Coefficient:** `Over 300`
 **Reason:** `{reason}`
 **Enforcer:** `{enforcer}`
 **Case Number:** `{proof_id}`
