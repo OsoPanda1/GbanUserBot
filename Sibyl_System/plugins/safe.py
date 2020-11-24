@@ -2,7 +2,7 @@ from Sibyl_System import System, system_cmd
 import os
 import sys
 
-@System.on(system_cmd(pattern = r"sibyl restart"))
+@System.on(system_cmd(pattern = r"scan restart"))
 async def reboot(event):
     if event.fwd_from:
         return
@@ -12,7 +12,7 @@ async def reboot(event):
     quit()
 
 
-@System.on(system_cmd(pattern = r"sibyl shutdown"))
+@System.on(system_cmd(pattern = r"scan shutdown"))
 async def shutdown(event):
     if event.fwd_from:
         return
