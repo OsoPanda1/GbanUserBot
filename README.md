@@ -37,6 +37,8 @@ Based on the popular anime series "Psycho Pass", Sibyl is designed to work in a 
 
 ### Location
 
+heroku.com/deploy
+
 Sibyl can be seen around telegram judging people and chats and logging the information at [@SibylSystem](http://t.me/SibylSystem "@SibylSystem")
 The base of operations of Sibyl are Beneath the NONA Tower and are only accessible by select personnel. 
 
