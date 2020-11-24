@@ -25,8 +25,6 @@ if ENV:
     Sibyl_approved_logs = int(os.environ.get('Sibyl_Approved_Logs', None))
     GBAN_MSG_LOGS = int(os.environ.get('GBAN_MSG_LOGS', None))
     BOT_TOKEN = os.environ.get('BOT_TOKEN')
-INSPECTORS.extend(SIBYL)
-ENFORCERS.extend(INSPECTORS)
 
 session = aiohttp.ClientSession()
 
