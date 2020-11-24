@@ -26,7 +26,6 @@ if ENV:
     GBAN_MSG_LOGS = int(os.environ.get('GBAN_MSG_LOGS', None))
     BOT_TOKEN = os.environ.get('BOT_TOKEN')
 else:
-    import Config
     API_ID_KEY = Config.API_ID
     API_HASH_KEY = Config.API_HASH
     STRING_SESSION = Config.STRING_SESSION
