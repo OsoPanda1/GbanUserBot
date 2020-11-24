@@ -27,7 +27,7 @@ for load in to_load:
 async def status(event):
          await event.reply(on_string)
 
-@System.on(system_cmd(pattern='sibyl stats'))
+@System.on(system_cmd(pattern='stats'))
 async def stats(event):
          msg = f"Currently Processing {System.processing} messages."
          msg += f"\nProcessed {System.processed} messages."
