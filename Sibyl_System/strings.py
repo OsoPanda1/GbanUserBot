@@ -41,7 +41,7 @@ proof_string = """
          ┗━[DelDog]({url})"""
 
 scan_approved_string = """
-#LethalEliminator
+#LethalImposter
 **Target User:** {scam}
 **Crime Coefficient:** `Over 300`
 **Reason:** `{reason}`
